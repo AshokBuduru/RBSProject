@@ -1,6 +1,7 @@
 package Pages;
 
 import BasePage.BaseUtils;
+import com.google.inject.Inject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,9 +12,11 @@ import java.util.concurrent.TimeUnit;
 
 public class UserLoginPage extends BaseUtils {
 
+    @Inject
     public UserLoginPage(WebDriver driver){
         PageFactory.initElements(driver,this);
     }
+
     @FindBy(xpath="//li[3]//a[@title='T-shirts']")
     private WebElement TshirtMenu;
 

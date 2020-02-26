@@ -2,23 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eff50e45-b297-4c3f-b6de-0c38223407e4" name="Default Changelist" comment="Added Place order Scenarios&#10;Added Update Personal Info tests">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RBSProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BasePage/BaseUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/NavigatePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/PersonalDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/PropertyFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/UserLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestRunner/testRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/checkOrderHistory.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/MyStepdefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020_02_23_19_03_55_051.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020_02_23_19_05_22_042.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020_02_23_19_08_01_642.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020_02_23_19_10_09_414.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020_02_23_19_13_08_295.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/2020_02_23_19_14_05_019.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BasePage/PageObjectManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/ScreenCapture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/captureScreenshot.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/ScreenStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/NavigatePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/NavigatePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/PersonalDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/PersonalDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/PropertyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/PropertyFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/UserLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/UserLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestRunner/testRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestRunner/testRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/MyStepdefs.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,19 +42,23 @@
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1TX49iEyb2618jgRo4hfCZ5HNtD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -70,7 +77,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cucumber java.Scenario: Capture whole pgae with all accordions opened">
+    <configuration name="Scenario: Capture whole pgae with all accordions opened" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/captureScreenshot.feature" />
+      <option name="GLUE" value="StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="RBSProject" />
+      <option name="NAME_FILTER" value="^Capture whole pgae with all accordions opened$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Capture whole pgae with all accordions opened$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Capture whole pgae with all accordions opened" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Check user can update personal details" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/checkOrderHistory.feature" />
+      <option name="GLUE" value="StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="RBSProject" />
+      <option name="NAME_FILTER" value="^Check user can update personal details$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Check user can update personal details$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check user can update personal details" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="RBSProject" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -100,7 +145,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Capture whole pgae with all accordions opened" />
         <item itemvalue="JUnit.testRunner" />
+        <item itemvalue="Cucumber java.Scenario: Check user can update personal details" />
       </list>
     </recent_temporary>
   </component>
@@ -115,6 +162,14 @@
       <option name="presentableId" value="Default" />
       <updated>1573592956310</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Place order Scenarios&#10;Added Update Personal Info tests">
+      <created>1573936108401</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573936108401</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,5 +189,16 @@
     <MESSAGE value="Added RBSProject tests" />
     <MESSAGE value="Added Place order Scenarios&#10;Added Update Personal Info tests" />
     <option name="LAST_COMMIT_MESSAGE" value="Added Place order Scenarios&#10;Added Update Personal Info tests" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

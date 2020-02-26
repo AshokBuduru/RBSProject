@@ -1,6 +1,7 @@
 package Pages;
 
 import BasePage.BaseUtils;
+import com.google.inject.Inject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 public class PersonalDetails extends BaseUtils {
 
+    @Inject
     public PersonalDetails(WebDriver driver){
         PageFactory.initElements(driver,this);
     }

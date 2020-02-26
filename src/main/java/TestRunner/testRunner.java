@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = {"src/main/resources/features"},
         glue={"classpath:StepDefinitions"},
         monochrome = true,
-        tags = {"@regression"}
+        tags = {"@updatePersonalDetails"}
 )
 public class testRunner {
 }

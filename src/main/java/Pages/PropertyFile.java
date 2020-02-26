@@ -1,12 +1,10 @@
 package Pages;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.PageFactory;
+public class PropertyFile {
 
-class PropertyFile {
-
-    PropertyFile() {
+    public PropertyFile() {
     }
     String username="SeleniumTesting@gmail.com";
     String password = "Selenium123";
+    public String gridRun = "false";
 }
