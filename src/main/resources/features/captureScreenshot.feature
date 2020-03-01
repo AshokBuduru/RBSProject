@@ -1,7 +1,7 @@
 Feature: Capture whole page
   Scenario Outline: Capture whole pgae with all accordions opened
     Given I navigate to below page "<url>"
-    When I open all the accoridon
+    When I open all the accordion
     Then I capture page from top to bottom
     Examples:
     |url|

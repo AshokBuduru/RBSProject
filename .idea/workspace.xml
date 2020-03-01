@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eff50e45-b297-4c3f-b6de-0c38223407e4" name="Default Changelist" comment="Added Place order Scenarios&#10;Added Update Personal Info tests">
-      <change afterPath="$PROJECT_DIR$/screenshots/2020_02_23_19_03_55_051.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/2020_02_23_19_05_22_042.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/2020_02_23_19_08_01_642.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/2020_02_23_19_10_09_414.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/2020_02_23_19_13_08_295.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/2020_02_23_19_14_05_019.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BasePage/PageObjectManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/ScreenCapture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/captureScreenshot.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/ScreenStepDef.java" afterDir="false" />
+    <list default="true" id="eff50e45-b297-4c3f-b6de-0c38223407e4" name="Default Changelist" comment="Added Screen capture tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ignore" beforeDir="false" afterPath="$PROJECT_DIR$/.ignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/NavigatePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/NavigatePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/PersonalDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/PersonalDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/PropertyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/PropertyFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/UserLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/UserLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestRunner/testRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestRunner/testRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/ScreenCapture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/ScreenCapture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/captureScreenshot.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/captureScreenshot.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/MyStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/ScreenStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/ScreenStepDef.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,12 +40,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sikuli_jars" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -169,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573936108401</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added tests">
+      <created>1582702613651</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582702613651</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,15 +182,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added RBSProject tests" />
     <MESSAGE value="Added Place order Scenarios&#10;Added Update Personal Info tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Place order Scenarios&#10;Added Update Personal Info tests" />
+    <MESSAGE value="Added tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="23" />
+          <url>file://$PROJECT_DIR$/src/main/java/Pages/ScreenCapture.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
