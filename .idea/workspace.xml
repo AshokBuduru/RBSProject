@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eff50e45-b297-4c3f-b6de-0c38223407e4" name="Default Changelist" comment="Added Screen capture tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ignore" beforeDir="false" afterPath="$PROJECT_DIR$/.ignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/ScreenCapture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/ScreenCapture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/captureScreenshot.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/captureScreenshot.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/ScreenStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/ScreenStepDef.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
